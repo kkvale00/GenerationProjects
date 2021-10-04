@@ -1,8 +1,12 @@
 body{
     background-color: blanchedalmond;
+    padding: 2rem;
 }
 p{
     color: rgb(0, 217, 255);
+    font-size: 2rem;
+    height: 30px;
+    margin: 3px;    
 }
 h1{
     font-size: 3rem;
