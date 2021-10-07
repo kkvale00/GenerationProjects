@@ -1,0 +1,25 @@
+identific,id,nome,ingredienti,alcolico,gradazione
+bevanda,1,Volkswagen,Food Colouring - Blue,true,8
+bevanda,2,Honda,Vegetable - Base,false,32
+bevanda,3,Volkswagen,White Fish - Filets,true,14
+bevanda,4,Mazda,Pimento - Canned,false,28
+bevanda,5,Toyota,Chicken - Soup Base,false,45
+bevanda,6,Mitsubishi,"Bread - Roll, Soft White Round",false,6
+bevanda,7,Nissan,Table Cloth 90x90 Colour,false,5
+bevanda,8,Audi,"Pasta - Cappellini, Dry",false,31
+bevanda,9,Toyota,Ecolab - Lime - A - Way 4/4 L,false,22
+bevanda,10,Jaguar,Turkey - Ground. Lean,true,16
+bevanda,11,GMC,"Lettuce - Mini Greens, Whole",false,42
+bevanda,12,BMW,Soap - Pine Sol Floor Cleaner,false,18
+piatto,Staraya Kulatka,Sterno - Chafing Dish Fuel,latte,secondo
+piatto,Kendaruan,Jello - Assorted,grano,primo
+piatto,Tokoname,Wine - George Duboeuf Rose,glutine,dolce
+piatto,Yaxi,Lobster - Tail 6 Oz,latte,dolce
+piatto,Maliang,Lamb Rack Frenched Australian,latte,primo
+piatto,Sungai Iyu,"Nut - Pine Nuts, Whole",latte,dolce
+piatto,Baima,Relish,farina,secondo
+piatto,Bagenalstown,Island Oasis - Ice Cream Mix,latte,secondo
+piatto,Mekarjaya Satu,Wine - Pinot Grigio Collavini,glutine,primo
+piatto,Hobart,Table Cloth 90x90 White,farina,dolce
+piatto,Hangkou,Bag - Clear 7 Lb,glutine,primo
+piatto,Dordrecht,Cheese - Le Cru Du Clocher,farina,secondo

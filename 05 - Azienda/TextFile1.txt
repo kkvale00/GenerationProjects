@@ -1,0 +1,6 @@
+﻿Dipendente,Marco,Caccavale,1991-09-18,Napoli,amministrazione,si,2020
+Dipendente,Alex,Gref,1969-12-24,Torino,amministrazione,no,2017
+DipendenteSpecializzato,Alex,Rider,1969-12-24,Torino,amministrazione,2017
+Dirigente,Mario,Ferretti,2002-11-25,Milano,5,acquisti-amministrazione
+Dirigente,Antonio,Orefice,1994-12-31,Caserta,5,acquisti
+Dirigente,Riccardo,Storti,1998-01-03,Napoli,5,amministrazione

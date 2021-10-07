@@ -1,0 +1,12 @@
+﻿videogioco;1;Sonic;40.99;4;Sega;Megadrive;1993;no
+videogioco;2;Mario Galaxy;50.99;2;Nintendo;Wii;2008;no
+videogioco;3;Persona 5 Royale;29.98;8;Atlus;Playstation 4;2019;no
+videogioco;4;Fifa 21;20.99;49;EA;Playstation 4;2020;si
+videogioco;5;Fifa 21;20.99;41;EA;XBOX ONE;2020;si
+videogioco;6;Zelda Breath of the Wild;60.99;12;Nintendo;Switch;2017;no
+videogioco;7;Final Fantasy 7;80;1;Square;Playstation 1;1995;no
+videogioco;8;Tetris;19.90;3;Nintendo;NES;1988;si
+piattaforma;9;NES;30;0;Giappone;1987;si
+piattaforma;10;Switch;299.99;28;Giappone;2019;no
+piattaforma;11;Playstation 4;220;12;Giappone;2013;no
+piattaforma;12;XBOX ONE;140;2;USA;2013;no
