@@ -1,0 +1,35 @@
+LATO DATABASE
+Scrivere un DB Azienda, con le tabelle:
+
+    Dipendente, con int id PK AI, varchar nome, varchar cognome, date dob, double stipendio, varchar reparto
+    Cliente, con int id PK AI, varchar nome, varchar cognome, varchar cosacompra
+
+Inserire poi alcuni dati nelle due tabelle.
+
+ 
+
+LATO C#
+Scrivere la classe Entity (aiutatevi con l'esercizio del cinema)
+    
+Scrivere la classe Dipendente, figlia di Entity
+    
+Scrivere la classe Cliente, figlia di Entity
+`
+ 
+
+Scrivere le classi Database, DAODipendente e DAOCliente.
+Al loro interno scrivere i metodi necessari a leggere le tabelle, inserire nuovi dati, modificare i dati nella tabella e cancellare(metodi CRUD).
+
+Scrivere inoltre nelle classi giuste i seguenti metodi:
+> double MaxStipendio() -> Ritorna il nome del dipendente con lo stipendio più alto
+> double MediaStipendi() -> Ritorna il valore medio di tutti gli stipendi
+> List<Dipendente> CercaCliente(string cognome) -> Ritorna il/i cliente con il cognome cercato
+> List<Dipendente> DipendentiSopraA(double stipendio) -> Ritorna i dipendenti che prendono più dello stipendio passato come parametro
+> int DipendentiNelReparto(string reparto) -> Ritorna il numero di dipendenti del reparto passato come parametro
+> String ContaCosaCompra() -> Ritorna il numero di ogni cosa comprata, senza ripetizioni
+
+ 
+
+Scrivere poi un main in cui testare tutti i metodi.
+
+Se avete tempo, create un menù per l'utente

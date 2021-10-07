@@ -1,0 +1,9 @@
+﻿libro,1,Siddharta,Hesse,Filosofia,1922,Tedesco
+libro,2,Il Processo,Kafka,Romanzo,1923,Tedesco
+libro,3,Metamorfosi,Kafka,Romanzo,1919,Tedesco
+libro,4,Dubliners,Joyce,Racconti,1914,Inglese
+libro,5,Ulisse,Joyce,Racconti,1912,Inglese
+libro,6,1984,Orwell,Distopico,1949,Inglese
+libro,7,Fattoria degli animali,Orwell,Distopico,1934,Inglese
+libro,8,Cecita,Saramago,Romanzo,1995,Portoghese
+libro,9,Uomo duplicato,Saramago,Romanzo,1989,Portoghese
