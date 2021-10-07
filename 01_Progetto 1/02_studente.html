@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagella</title>
+        <script src=02_studente.js></script>
+
+    </head>
+
+    <body>
+        <h1>PAGELLA STUDENTE</h1>
+        <h4>Benvenuto asino, inserisci qui i tuoi voti</h4>
+
+        <input type="text" placeholder="Nome.." id="nome" />
+        <br><br>
+        <input type="number" placeholder="Voto ITA.." id="votoita" onblur="fix('votoita')">
+        <br><br> 
+        <input type="number" placeholder="Voto STO.." id="votosto" onblur="fix(this.id)">
+        <br><br>
+        <input type="number" placeholder="Voto MATE.."id="votomate" onblur="fix(this.id)">
+        <br><br>
+        <input type="number" placeholder="Voto ING.." id="votoing" onblur="fix(this.id)">
+        <br><br>
+
+        <button onclick="calcola()">CALCOLA PAGELLA</button>
+        <br>
+
+        <p id="testoRisposta">
+            Inserisci i dati e clicca sul bottone per calcolare la tua pagella
+
+        </p>
+    </body>
+</html>

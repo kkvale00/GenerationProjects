@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="cucina.js">
+        </script>
+        <link rel="stylesheet" href="cucina.css">
+    </head>
+    <body>
+        <!--il div e un divisore che conterra i nostri input 
+            per l'inserimento di un nuovo piatto-->
+        <div>
+            <input type="text" placeholder="Nome piatto.." id="nome">
+            <br><br>
+            <input type="number" placeholder="Prezzo.." id="prezzo">
+            <br><br>
+            <select id="tipo">
+                <option value="Primo">Primo</option>
+                <option value="Secondo">Secondo</option>
+                <option value="Dolce">Dolce</option>
+            </select>
+            <br><br>
+            <textarea placeholder="ingredienti separati dalla virgola.."id="ingredienti"></textarea>
+            <br>
+            <button onclick="aggiungi()">Aggiungi piatto</button>
+            <br>
+            <input type="text" placeholder="Tipo cercato.." id="type">
+            <button onclick="prezzotipo()">stampa prezzi tipo</button>
+            <br>
+            <input type="number" placeholder="prezzomin.."  id="prezzomin">
+            <input type="number" placeholder="prezzomax.."  id="prezzomax">
+            <button onclick="prezzobw()">piatti con fascia di prezzo</button>
+            <br>
+            
+            <input type="text" placeholder="ingrediente.." id="ingrediente">
+            <br>
+            <button onclick="cercapiattiIng()"> cerca con ing </button> 
+            <button onclick="cercapiattiNonIng()"> cerca senza ing </button> 
+        </div>
+               
+        <div id="sinistra" class="colonna">
+            <button onclick="stampa()"> Stampa menu </button>
+            <br>
+            <button onclick="prezzotot()"> Stampa prezzi </button> 
+            <br>
+            <button onclick="stampaprimi()"> Stampa primi </button> 
+            <br>
+            <button onclick="stampaingredienti()"> Stampa ingredienti </button> 
+            
+
+
+        </div>
+        <div id="destra" class="colonna">
+        </div>
+    </body>
+</html>

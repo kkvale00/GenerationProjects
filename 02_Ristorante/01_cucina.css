@@ -1,0 +1,55 @@
+/* 
+    Il file CSS è un foglio di stile che serve a modificare proprietà grafiche
+    degli elementi della pagina HTML.
+    Dopo aver selezionato un elemento o un gruppo di elementi si aprono le 
+    parentesi graffe e si indicano le modifiche da fare allo stile.
+    Per selezionare gli elementi ci sono 3 modi: 
+    - nome del tag ad esempio: input, button, body, textarea
+    - #id dell'elemento ad esempio: #nome, #tipo, #pippo 
+    - .classe ad esempio: .bottoni .gialli .sottotitolo
+*/
+
+input,
+select,
+textarea,
+button {
+    width: 23%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position: relative;
+    color: rgba(238, 3, 3, 0.616);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.356);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(197, 186, 186, 0.151);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(199, 40, 0);
+}
+
+/*con il "." impostiamo lo stile di una classe, e lo avranno tutte appartenti alla classe--!>*/
+.colonna{
+    background-color: rgba(197, 186, 186, 0.151);
+    color: rgba(238, 3, 3, 0.616);
+    float:left;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 45px 60px rgba(0, 0, 0, 0.356);
+    border-radius: 10px;
+}
+#sinistra{
+    width:21.75%;
+    height: 65%
+}
+#destra{
+    width:21.75%;
+    height: 65%
+}

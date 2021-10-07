@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href=ristorante.css>
+    </head>
+    
+    <body>
+        <div>
+            <input type="text" placeholder="Inserisci nome.." id="nome">
+            <br><br>
+            <input type="number" placeholder="Inserisci prezzo.." id="prezzo">
+            <br><br>
+            <select id="tipo">
+                <option value="Antipasto">Antipasto</option>
+                <option value="Primo">Primo</option>
+                <option value="Secondo">Secondo</option>
+                <option value="Dolce">Dolce</option>
+            </select>
+            <br><br>
+            
+            
+        </div>
+        <div id="bottonitavoli">
+        </div>
+        <div id="stampaTavolo">
+        </div>
+        <div id="stampaPiatto">
+            <button onclick="aggiungipiatto()"></button>
+        </div>
+        <div>
+            <input type="number" placeholder="num tavolo.." id="numero">
+
+
+
+        </div>
+        <script src="02_ristorante.js"></script>
+    </body>
+
+
+</html>

@@ -1,0 +1,45 @@
+<html> 
+    <!-- Nel tag HTML ci sara tutto il contenuto della pagina
+         Nel tag HEAD avremo eventuali import di altre pagine
+         Nel tag BODY avremo lo scheletro della nostra pagine
+    -->
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            //All'interno del tag <script scrivero il codice javascript
+            //della mia pagina web
+        </script>
+        <script src="primo.js"></script>
+    </head>
+
+    <h1>CINEMA</h1>
+    <body>
+        <h4>Benevenuto nel sito del cinema, prenota il tuo biglietto!</h4>
+        
+        <!--Il tag "input" serve a creare caselle di testo che conterranno ciò che
+        scrive l'utente. Possiamo aggiungere delle caratteristiche a queste caselle
+        grazie agli attributi
+        - type: cosa vuoi che l'utente inserisca
+        - placeholder: la scritta in grigio per far capire cosa scrivere
+        - id: cosa leggere
+        ...-->
+        <input type="text" placeholder="Nome.." id="nome" />
+        <br><br>
+        <input type="number" placeholder="Età.." id="eta" />
+        <br><br>
+        <input type="text" placeholder="Professione.." id="professione" />
+        <br><br>
+        <input type="text" placeholder="Film.." id="film" />
+        <br><br>
+        
+        <button onclick="calcola()">Calcola biglietto</button>
+        <br>
+        
+        <p id="testoRisposta">
+            Inserisci i dati e clicca sul bottone per calcolare il prezzo
+
+        </p>
+
+    </body>
+
+</html>
