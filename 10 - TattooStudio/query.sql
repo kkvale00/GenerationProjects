@@ -1,0 +1,1 @@
+#stampare le informazioni dei tatuatori di “Torino”, “Milano” e “Venezia” nati in un mese dispari

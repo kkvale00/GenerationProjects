@@ -1,0 +1,12 @@
+insert into films (id, titolo, durata, genere, annouscita) values (1, 'Birdcage, The', 1, 'Comedy', 1994);
+insert into films (id, titolo, durata, genere, annouscita) values (2, 'Mother (Mat)', 2, 'Drama', 2005);
+insert into films (id, titolo, durata, genere, annouscita) values (3, 'Tie Xi Qu: West of the Tracks (Tiexi qu)', 3, 'Documentary', 2008);
+insert into films (id, titolo, durata, genere, annouscita) values (4, 'Alias the Doctor', 4, 'Drama', 1981);
+insert into films (id, titolo, durata, genere, annouscita) values (5, 'French Minister, The (Quai d''Orsay)', 5, 'Comedy', 2012);
+insert into films (id, titolo, durata, genere, annouscita) values (6, 'Dark Mirror, The', 6, 'Film-Noir|Thriller', 1999);
+insert into films (id, titolo, durata, genere, annouscita) values (7, 'Baxter', 7, 'Drama|Horror', 1993);
+insert into films (id, titolo, durata, genere, annouscita) values (8, 'American Outlaws', 8, 'Action|Comedy|Western', 2008);
+insert into films (id, titolo, durata, genere, annouscita) values (9, 'Town is Quiet, The (Ville est tranquille, La)', 9, 'Drama', 1997);
+insert into films (id, titolo, durata, genere, annouscita) values (10, 'Quality Street', 10, 'Comedy|Drama|Romance', 2007);
+insert into films (id, titolo, durata, genere, annouscita) values (11, 'Big Lebowski, The', 11, 'Comedy|Crime', 2008);
+insert into films (id, titolo, durata, genere, annouscita) values (12, 'Iris', 12, 'Drama', 2012);

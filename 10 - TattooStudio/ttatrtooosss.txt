@@ -1,0 +1,60 @@
+
+/*Creare un database di nome TattooStudio
+
+ 
+
+Avremo 2 tabelle:
+
+    tatuatori: id, nome, cognome, dob, residenza, anniesperienza,
+    Tatuaggi: id, descrizione, data, colori, prezzo, altezzacm, larghezzacm
+
+ 
+
+Inserire alcuni dati e scrivere le seguenti query:*/
+
+    #stampare le informazioni dei tatuatori di “Torino”, “Milano” e “Venezia” nati in un mese dispari
+    select *
+    from tatuatori
+    where residenza in ('Torino','Milano','Venezia') and month(dob) %2 != 0;
+    
+    #stampare il prezzo medio di un tatuaggio a colori con sia larghezza che altezza comprese tra 15 e 20
+    select avg(prezzo)
+    from tatuaggi
+    where colori = true and larghezzacm between 5 and 12 and altezzacm between 15 and 20;
+    
+    #Stampare il prezzo totale dei tatuaggi fatti nell’ultimo anno
+    select sum(prezzo) as sommaprezzi
+    from tatuaggi
+    where year(data) = year(curdate());
+
+    #Stampare il prezzo medio di un tatuaggio per ogni anno
+    select avg(prezzo) as avgprice,year(data) 
+    from tatuaggi
+    group by year(data);
+    
+    #Stampare quanti giorni sono trascorsi dal tatuaggio più costoso
+    select *,(curdate() - data) as quantigg
+    from tatuaggi
+    where prezzo = (select max(prezzo) from tatuaggi);
+    
+    #Stampare il numero di tatuaggi a colori fatti da ogni tatuatore
+    select Count(*),nome
+    from tatuaggi inner join tatuatori on tatuatori.id = tatuaggi.idtatuatore
+    where colori = 1
+    group by tatuatori.id;
+
+    #Stampare l’età media di chi ha fatto nella sua carriera almeno 3 tatuaggi
+    create view tatuaggiperartista as
+    select tatuatori.*,count(*) as totale
+	from tatuaggi inner join tatuatori on tatuatori.id = tatuaggi.idtatuatore
+	group by tatuatori.id;
+ 
+    select avg( datediff(curdate(), dob) / 365) as etamedia
+    from tatuaggiperartista
+    where totale >= 3;
+    
+    
+    #stampare il nome e il cognome del attuatore che ha fatto più tatuaggi*/
+	select nome,cognome
+    from tatuaggiperartista
+    where totale = (select max(totale) from tatuaggiperartista);
