@@ -1,0 +1,50 @@
+Progetto Campionato
+
+Creare la classe Persona, con campi privati:
+		string nome, string cognome, int dob, string mansione
+	scrivere le proprietà, il costruttore e i metodi: 
+		public virtual string Scheda()
+		public int Eta() -> Restituisce gli anni della persona(solo in base all'anno di nascita)
+		public virtual double Stipendio()-> Fissare lo stipendio a un prezzo base di 700.
+		
+Creare la classe Giocatore, figlia di Persona, che avrà i campi:
+		string squadra, string ruolo, int anniEsperienza, int numeroMaglia, int partiteVinte, int partitePerse, bool capitano, int campionatiVinti
+	scrivere le proprietà, il costruttore e i metodi:
+		public override string Scheda()
+		public bool Esperto()-> Ritorna true se gli anniEsperienza sono 10 o più
+		public bool Vincitore() -> Ritorna true se i campionatiVinti sono almeno la metà rispetto agli anni giocati
+		public double Statistica() -> Ritorna la percentuale di partiteVinte rispetto al totale delle partite giocate
+		public override double Stipendio() -> Aggiungere il 10% se è un giocatore esperto, a questo, aggiungere il 35% se è un vincitore, 
+						inoltre, dividete per 10 il valore delle statistiche del giocatore e aggiungete il valore ottenuto allo stipendio 
+						fin'ora calcolato
+										
+Creare la classe Allenatore, figlia di Persona, che avrà i campi:
+		string squadraAttuale, string [] squadreAllenate, int anniEsperienza, int campionatiVinti
+	scrivere le proprietà, il costruttore e i metodi:
+		public override string Scheda()
+		public bool Fedele() -> Ritorna true se gli anniEsperienza sono più di 10 e ha allenato solo la squadraAttuale
+		public bool BuonAllenatore()-> Ritorna true se il numero di campionati vinti è maggiore di 4;
+		public bool Mercenario()-> Ritorna true se ha allenato un numero di squadre maggiore della metà degli anniEsperienza;
+		public override double Stipendio() -> Aggiungere il 20% se è un allenatore fedele, a questo, aggiungere il 35% se è un buon allenatore
+						inoltre, togliere il 10% se è un mercernario, altrimenti premiarlo con un bonus di 600 
+						fin'ora calcolato
+										
+Creare una classe Aggregatore Squadra, che ha come campo:
+		Persona[] persone;
+	Il costruttore leggerà i dati da file e caricherà il vettore.
+	La classe avrà i metodi:
+	  FACILI
+		public string ListaSquadre()-> La lista di tutte le squadre senza ripetizioni presenti
+		public string ListaGiocatori() -> Ritorna la scheda di tutti i giocatori
+		public string ListaGiocatori(String squadra) -> Ritorna la scheda di tutti i giocatori della squadra passata come parametro
+		public string ListaAllenatori() -> Ritorna la scheda di tutti gli allenatori
+		public string ListaAllenatori(String squadra) -> Ritorna la scheda di tutti gli allenatori attuali della squadra passata come parametro
+	  MEDI
+		public Persona MaxVincite() -> Ritorna il giocatore che ha vinto più partite in assoluto
+		public Persona Cerca(String nome) -> Ritorna il giocatore che ha il nome passato come parametro
+		public int Mercenari()-> Restituisce il numero di tutti gli allenatori che hanno allenato un numero di squadre maggiore della metà degli anniEsperienza;
+	  DIFFICILI
+		public bool SquadraValida(String squadra)-> Ritorna true se la squadra passata come parametro contiene almeno 10 giocatori e un allenatore	
+		public string SquadreFake()-> Ritorna la lista dei nomi delle squadre non valide
+		
+Creare poi un main in cui testare i metodi, se riuscite, create un menù per l'utente

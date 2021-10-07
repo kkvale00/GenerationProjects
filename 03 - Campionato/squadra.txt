@@ -1,0 +1,31 @@
+Giocatore,Norean,Bannell,2022-09-20,Brinje,difensore,1,1,1,true,1
+Giocatore,Stanislaw,Crannis,2023-11-25,Muyuka,portiere,2,2,2,false,2
+Giocatore,Normie,Keech,2017-08-29,Steinsel,centrocampista,3,3,3,true,3
+Giocatore,Arty,Luesley,2030-12-17,Kaiyuan,difensore,4,4,4,true,4
+Giocatore,Veda,Giovannardi,2013-10-31,Cauayan,centrocampista,5,5,5,false,5
+Giocatore,Dorolice,Syms,2061-11-12,Meiktila,centrocampista,6,6,6,false,6
+Giocatore,Katey,Coppard,2032-07-18,Arcossó,portiere,7,7,7,true,7
+Giocatore,Bibbye,Duddell,2034-10-07,Jiaoba,portiere,8,8,8,false,8
+Giocatore,Madelle,Scrivens,2059-06-21,Cumming,attaccante,9,9,9,false,9
+Giocatore,Erastus,Huburn,2029-11-19,Qingyang,portiere,10,10,10,false,10
+Giocatore,Ferrel,Hartnup,2080-09-15,Hamburg Bramfeld,attaccante,11,11,11,false,11
+Giocatore,Nolie,Pressey,2061-02-21,Biscucuy,portiere,12,12,12,false,12
+Giocatore,Rebekkah,Podmore,2073-04-18,Nakhon Pathom,centrocampista,13,13,13,false,13
+Giocatore,Ephraim,Dinnis,2054-05-18,General Galarza,centrocampista,14,14,14,true,14
+Giocatore,Lita,Doumic,2009-02-01,Matang,attaccante,15,15,15,true,15
+Giocatore,Orazio,Hamil,2018-09-02,Ponta Delgada,attaccante,16,16,16,false,16
+Giocatore,Brodie,Bawles,2036-10-03,Kozakai-chō,attaccante,17,17,17,false,17
+Giocatore,Hurlee,Glasscock,2036-03-03,Yumbel,attaccante,18,18,18,true,18
+Giocatore,Anthea,Grumley,2038-06-28,Espumoso,difensore,19,19,19,true,19
+Giocatore,Neal,Calender,2036-05-04,Rama,portiere,20,20,20,false,20
+Giocatore,Ambur,Grinsdale,2019-10-02,Yeghegnut,difensore,21,21,21,true,21
+Giocatore,Pierce,Joanaud,2029-02-25,Skaryszew,centrocampista,22,22,22,false,22
+Giocatore,Lenee,Swatton,2036-11-10,Yanmen,centrocampista,23,23,23,true,23
+Giocatore,Laverna,Davenell,2070-09-18,Laventille,portiere,24,24,24,false,24
+Giocatore,Brad,Puckham,2084-08-13,Liangyaping,difensore,25,25,25,true,25
+Giocatore,Gianina,Stourton,2015-06-20,Monte de Trigo,portiere,26,26,26,true,26
+Giocatore,Valeria,Shepard,2061-10-06,Kungur,centrocampista,27,27,27,true,27
+Giocatore,Marjory,Pickance,2058-03-03,Huangguan,attaccante,28,28,28,false,28
+Giocatore,Melitta,Meads,2069-03-06,Hengshui,portiere,29,29,29,false,29
+Giocatore,Bryon,Cryer,2077-12-31,Soio,portiere,30,30,30,true,30
+Allenatore,Gigi,DelNeri,1954-05-13,4,3,London,London

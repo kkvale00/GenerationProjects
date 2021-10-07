@@ -1,0 +1,6 @@
+﻿Paziente,Pino,Pane,55,Neurologia,32,no
+Paziente,Paola,Bitta,78,Cardiologia,180,si
+Medico,Alberto,Baudo,38,Neurologia,20
+Medico,Samantha,Gigio,42,Oncologia,10
+Chirurgo,Ludovica,Mostri,67,35,184,176
+Chirurgo,Giacomo,Poretti,54,12,44,68
