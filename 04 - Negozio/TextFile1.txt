@@ -1,0 +1,14 @@
+﻿progrmma che legge
+nome, quantità, prezzo, datascadenza, esaurito
+
+Leggere i dati, salvarli nei vettori apposiri e stampare:
+- la lista dei nomi degli articoli
+- lista dei prodotti scaduti
+- lista dei prodotti esauriti
+- il prezzo medio dei prodotti esauriti
+- l'articolo non scaduto più costoso
+- l'articolo meno costosto
+- per ogni articolo, voglio vedere quanti giorni di vita rimangono
+
+BONUS
+scrivere un menu per far interagire l'utente21

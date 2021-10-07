@@ -1,0 +1,7 @@
+﻿6
+Margherita:5,00:Pizza:glutine-latticino-pomodoro:n
+Spaghetti Carbonara:7,00:Primo:glutine-uovo-latticino:n
+Fiorentina:15,50:Secondo::n
+Hamburger Vegano:9,40:Secondo:soia-glutine:s
+Edamame:3,0:Antipasto::soia:s
+Sushi:15,50:Secondo::n
