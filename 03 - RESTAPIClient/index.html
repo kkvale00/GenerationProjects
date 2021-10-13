@@ -1,24 +1,29 @@
-<!-- DOM Documenet Object Model-->
-<!-- la Pagina html vista e gestita come un Oggetto da JS-->
+<!-- DOM Document Object Model -->
+<!-- La pagina HTML vista e gestita come un Oggetto da JS -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo list SPA</title>
-    <script 
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
-        crossorigin="anonymous"
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-</head>
-<body>
-    <ul class="w3-ul w3-border">
-        <li>Jill</li>
-        <li>Eve</li>
-        <li>Adam</li>
-    </ul>
-</body>
-</html>      
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="./main.js"></script>
+    <style>
+      .completed {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Todo List APP</h1>
+    <input id="todo" /> <button id="add-btn">Add Todo</button>
+    <hr />
+    <ul class="w3-ul w3-border"></ul>
+  </body>
+</html>
