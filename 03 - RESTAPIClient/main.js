@@ -4,10 +4,7 @@
 $(document).ready(init);
     
 // in JS posso passare le funzioni come paramettri ad altre funzuione callback
-
+// le function sono first class citizens
 function init(){
     console.log('Hello World');
 };
-
-
-
