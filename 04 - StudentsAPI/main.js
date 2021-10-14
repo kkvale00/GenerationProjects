@@ -13,33 +13,43 @@ function init(){
     function create(student){
         const node = 
         $(`
-           <li class=name > 
-                ${student.name}
-           </li>
-           <li class=classroom >
-                ${student.classroom}
-           </li>
-           <li class=grades "${student.grades < 6 ? 'red' : ''}" > 
-                ${student.grades}
-           </li>
-           <li class=address > 
-                ${student.address}
-           </li>
+            <tr>
+                <td>${student.name}</td> 
+                <td>${student.classroom}</td>   
+                <td class= "${student.grades<6 ? 'red white' : ''} ">${student.grades}</td> 
+                <td>${student.address}</td> 
+                <td><button class="button1 right">DELET DIS</button></td>
+            </tr>
         `);
+        node.children('td').children('.button1').click(function(id){
+                
+            $.ajax(apiURL+"/"+id,
+                {
+                  type: 'DELETE',
+                  contentType: 'application/json',
+                },
+           );
+           node.hide();
+        });
+
         return node;
 
     }
 
+    $.get(apiURL, render);
+    
     function render(students){
         const list = [];
         
         for(const student of students){
             list.push(create(student));
+            
+           
         }
-        $('ul').append(list);
+        $('table').append(list);
     }
 
-    $.get(apiURL, render);
+    
 
     //nell'html ho dichiarato un button, ora vado a dargli un senso
     //richiamndo l'id assegnatogli e in modo che non stampi a vuoto diocan
@@ -55,10 +65,10 @@ function init(){
         //nel body, passo l'input che in precedenza ha valorizzato il valore
         $.ajax(apiURL,
              {data: JSON.stringify({
-               Name: name,
-               Classroom: classroom,
-               Grades: grades,
-               Address: address
+               name: name,
+               classroom: classroom,
+               grades: grades,
+               address: address
             
             }),
             contentType: 'application/json',

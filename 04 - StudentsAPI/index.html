@@ -12,13 +12,32 @@
   ></script>
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <style>
+    <style> 
         .red {
-          color: red;
+          background-color: rgba(255, 0, 0, 0.623);
         }
+        .button1 {padding: 3px 8px;
+                  color:rgba(255, 0, 0, 0.829)}
+        .right{
+          float:right;
+        }
+        .txt{
+          font-size: 21px;
+        }
+        .w{
+          width:50%;
+          border: 1px solid rgba(49, 47, 47, 0.808);
+          border-collapse: collapse;
+        }
+        .white{
+          color:seashell;
+          font-weight: bold;
+          font-size: 18px;
+        }
+                  
       </style>
 </head>
-<body>
+<br>
     <h1>Stundent's Grades</h1>
     <input id='name' placeholder = "Name.." type ="text">
     <br><br/>
@@ -29,6 +48,16 @@
     <input id='address' placeholder = "Address.." type ="text">
     <br><br/>
     <button id="new-btn">Add new Student</button>
-    <ul class="w3-ul w3-border"></ul>
+    <br></br>br
+    <table class="w3-table-all  ">
+      <thead class="txt button1">
+        <th>Name</th>
+        <th>Classroom</th>
+        <th>Grades</th>
+        <th>Address</th>
+        <th class="right">DELETE</th>
+      </thead>
+    </table>
+    <br/>
 </body>
 </html>
