@@ -19,14 +19,15 @@ function init(){
            <li class=classroom >
                 ${student.classroom}
            </li>
-           <li class=grades > 
-                ${ParseInt32(student.grades)}
+           <li class=grades "${student.grades < 6 ? 'red' : ''}" > 
+                ${student.grades}
            </li>
            <li class=address > 
                 ${student.address}
            </li>
         `);
         return node;
+
     }
 
     function render(students){
