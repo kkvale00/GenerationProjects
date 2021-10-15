@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students List</title>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <style> 
+        .red {
+          background-color: rgba(255, 0, 0, 0.623);
+        }
+        .button1 {padding: 3px 8px;
+                  color:rgba(255, 0, 0, 0.829)}
+        .right{
+          float:right;
+        }
+        .txt{
+          font-size: 21px;
+        }
+        .w{
+          width:50%;
+          border: 1px solid rgba(49, 47, 47, 0.808);
+          border-collapse: collapse;
+        }
+        .white{
+          color:seashell;
+          font-weight: bold;
+          font-size: 18px;
+        }
+                  
+      </style>  
+</head>
+<br>
+    <h1>DragonBall Character's</h1>
+    <input id='name' placeholder = "Name.." type ="text">
+    <br><br/>
+    <input id='power' placeholder = "Power.." type ="number">
+    <br><br/>
+    <input id='dob' placeholder = "Date of Birth.." type ="date">
+    <br><br/>
+    <button id="new-btn">Add new Character</button>
+    <br></br>
+    <table class="w3-table-all  ">
+      <thead class="txt button1">
+        <th>Name</th>
+        <th>Power</th>
+        <th>Date of Birth</th>
+        <th class="right">DELETE</th>
+      </thead>
+    </table>
+    <br/>
+</body>
+</html>
